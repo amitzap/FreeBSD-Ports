@@ -1,0 +1,28 @@
+# $FreeBSD$
+
+PORTNAME=	svt-av1
+DISTVERSIONPREFIX=	v
+DISTVERSION=	0.8.6
+CATEGORIES=	multimedia
+
+MAINTAINER=	jbeich@FreeBSD.org
+COMMENT=	Scalable AV1 encoder
+
+LICENSE=	BSD2CLAUSE BSD3CLAUSE
+LICENSE_COMB=	multi
+LICENSE_FILE_BSD2CLAUSE=	${WRKSRC}/LICENSE.md
+LICENSE_FILE_BSD3CLAUSE=	${WRKSRC}/third_party/fastfeat/LICENSE
+
+BROKEN_i386=	https://github.com/AOMediaCodec/SVT-AV1/issues/1231
+
+BUILD_DEPENDS=	nasm:devel/nasm
+
+USES=		cmake compiler:c11
+USE_GITHUB=	yes
+USE_LDCONFIG=	yes
+GH_ACCOUNT=	AOMediaCodec
+GH_PROJECT=	SVT-AV1
+CMAKE_ON=	ENABLE_NASM
+CMAKE_OFF=	NATIVE
+
+.include <bsd.port.mk>
