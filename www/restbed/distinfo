@@ -1,0 +1,7 @@
+TIMESTAMP = 1586032566
+SHA256 (Corvusoft-restbed-4.7_GH0.tar.gz) = 8c7f9e490036e0ceb9fc61272cecec1a3ae41dc7feae3289c671df745a3f3e2e
+SIZE (Corvusoft-restbed-4.7_GH0.tar.gz) = 141280
+SHA256 (Corvusoft-asio-dependency-22afb86_GH0.tar.gz) = 430162488f0fc917b60c237aadb270c4bc551e18b233e6a4e524440c05b0f878
+SIZE (Corvusoft-asio-dependency-22afb86_GH0.tar.gz) = 1234772
+SHA256 (Corvusoft-catch-dependency-d10b9bd_GH0.tar.gz) = a84ddaf54a3e9a84fbcebd509d655da3beca822029675a788b31ae3b78656908
+SIZE (Corvusoft-catch-dependency-d10b9bd_GH0.tar.gz) = 631559

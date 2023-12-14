@@ -1,0 +1,11 @@
+TIMESTAMP = 1597396669
+SHA256 (centos/curl-7.29.0-57.el7_8.1.i686.rpm) = af136de6aeff1c8b5fda8415c3fe9b092382e3e5f36a7e34120abb172d4941e4
+SIZE (centos/curl-7.29.0-57.el7_8.1.i686.rpm) = 276628
+SHA256 (centos/curl-7.29.0-57.el7_8.1.x86_64.rpm) = ee225e394bfa89bf736af8ccbdc1de6dd411a05ede84e4493d27f935cee02a32
+SIZE (centos/curl-7.29.0-57.el7_8.1.x86_64.rpm) = 277016
+SHA256 (centos/libcurl-7.29.0-57.el7_8.1.i686.rpm) = 88ee4332615170eedaac483e9c5f7d0751be7ffcf7afd65cd6f2e8ce384e6e34
+SIZE (centos/libcurl-7.29.0-57.el7_8.1.i686.rpm) = 231168
+SHA256 (centos/libcurl-7.29.0-57.el7_8.1.x86_64.rpm) = 8efe21c365f79b4f7aa8f282faecff8f6d5acf301bd09c85d475eb736077c2db
+SIZE (centos/libcurl-7.29.0-57.el7_8.1.x86_64.rpm) = 228316
+SHA256 (centos/curl-7.29.0-57.el7_8.1.src.rpm) = cb8a06720f8bf740f3f8023d4da375ede8dd4d5876f4c1a2969e20e5a4e269a5
+SIZE (centos/curl-7.29.0-57.el7_8.1.src.rpm) = 2390215

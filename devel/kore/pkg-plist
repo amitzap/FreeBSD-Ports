@@ -1,0 +1,14 @@
+bin/kodev
+bin/kore
+include/kore/acme.h
+include/kore/curl.h
+include/kore/http.h
+include/kore/jsonrpc.h
+include/kore/kore.h
+include/kore/pgsql.h
+include/kore/python_api.h
+include/kore/python_methods.h
+include/kore/seccomp.h
+include/kore/tasks.h
+%%DATADIR%%/features
+share/man/man1/kodev.1.gz

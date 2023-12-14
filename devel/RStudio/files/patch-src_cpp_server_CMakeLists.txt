@@ -1,0 +1,12 @@
+--- src/cpp/server/CMakeLists.txt.orig	2020-01-23 23:30:24 UTC
++++ src/cpp/server/CMakeLists.txt
+@@ -156,6 +156,9 @@ include_directories(
+ # define executable
+ add_stripped_executable(rserver ${SERVER_SOURCE_FILES} ${SERVER_HEADER_FILES})
+ 
++# additional libraries
++target_link_libraries(rserver -L${FREEBSD_LIBDIR} -linotify)
++
+ # set link dependencies
+ target_link_libraries(rserver
+    rstudio-core

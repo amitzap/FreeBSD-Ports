@@ -1,0 +1,8 @@
+# $FreeBSD$
+
+VERSIONS=		315 316 317
+CFENGINE_VERSION?=	317
+
+MASTERDIR=		${.CURDIR}/../cfengine${CFENGINE_VERSION}
+
+.include "${MASTERDIR}/Makefile"

@@ -1,0 +1,2 @@
+%%QT_BINDIR%%/qdbus
+%%DEBUG%%%%QT_BINDIR%%/qdbus.debug

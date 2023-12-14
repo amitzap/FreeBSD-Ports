@@ -1,0 +1,7 @@
+TIMESTAMP = 1588507615
+SHA256 (centos/qt-4.8.7-8.el7.i686.rpm) = 915d005b2ac04b3466e5e73cc90de0718163f86a1425fc50d768693c949e37db
+SIZE (centos/qt-4.8.7-8.el7.i686.rpm) = 4876696
+SHA256 (centos/qt-4.8.7-8.el7.x86_64.rpm) = 985dd2812f58a248c7441274e7215d0722c6da472aa0a4ec90440f579f8eea63
+SIZE (centos/qt-4.8.7-8.el7.x86_64.rpm) = 4785620
+SHA256 (centos/qt-4.8.7-8.el7.src.rpm) = f8c0d674fbd0fb518f2b5548c9bcf5cabbec57ec85d8189e566b037e4d15a3f9
+SIZE (centos/qt-4.8.7-8.el7.src.rpm) = 240447704

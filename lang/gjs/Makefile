@@ -1,0 +1,35 @@
+# Created by: Pawel Worach <pawel.worach@gmail.com>
+# $FreeBSD$
+
+PORTNAME=	gjs
+PORTVERSION=	1.66.0
+CATEGORIES=	lang gnome
+MASTER_SITES=	GNOME
+DIST_SUBDIR=	gnome
+
+MAINTAINER=	gnome@FreeBSD.org
+COMMENT=	GNOME Javascript binding
+
+LICENSE=	MPL11 LGPL20+ GPLv2+
+LICENSE_COMB=	multi
+LICENSE_FILE_MPL11=	${WRKSRC}/COPYING
+LICENSE_FILE_LGPL20+ =	${WRKSRC}/COPYING.LGPL
+
+LIB_DEPENDS=	libmozjs-78.so:lang/spidermonkey78 \
+		libffi.so:devel/libffi
+
+USES=		compiler:c++11-lib gettext gnome \
+		localbase meson pkgconfig python:build readline tar:xz xorg
+USE_GNOME=	cairo gdkpixbuf2 gtk30 introspection
+USE_XORG=	x11 xext
+MESON_ARGS=	-Dcairo=enabled \
+		-Dreadline=enabled \
+		-Dprofiler=disabled \
+		-Dinstalled_tests=false
+USE_LDCONFIG=	yes
+
+CONFIGURE_ENV=	PYTHONDONTWRITEBYTECODE=1
+MAKE_ENV=	PYTHONDONTWRITEBYTECODE=1
+
+
+.include <bsd.port.mk>
